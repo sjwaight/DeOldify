@@ -1,6 +1,6 @@
 From nvcr.io/nvidia/pytorch:19.04-py3
 
-RUN bash install-cuda.sh
+RUN install-cuda.sh
 
 RUN apt-get -y update
 
